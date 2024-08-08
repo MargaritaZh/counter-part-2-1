@@ -1,0 +1,101 @@
+.App {
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:50px
+
+}
+
+input {
+    border: none;
+    outline: none; /* Убирает обводку фокуса при клике */
+}
+
+.Wrapper-Settings{
+    min-width: 300px;
+    border: 2px solid aqua;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: grey;
+}
+
+.Wrapper-value{
+    border: 2px solid aqua;
+    color: aqua;
+    margin-bottom: 20px;
+}
+
+.Wrapper-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    padding: 5px;
+}
+.input-settings{
+    border: 2px solid aqua;
+    text-align: center;
+    min-height: 30px;
+    mix-width: 50px;
+}
+
+.wrapper-bth-setting{
+    border: 2px solid aqua;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*--------------*/
+
+.Wrapper-counter-1 {
+    min-width: 300px;
+    border: 2px solid aqua;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: grey;
+
+}
+
+.Wrapper-number {
+    border: 2px solid aqua;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    color: aqua;
+    margin-bottom: 20px;
+}
+
+
+.Wrapper-bth {
+    display: flex;
+    border: 2px solid aqua;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.button {
+    border: 2px solid #72d3d3;
+    background-color: #72d3d3;
+    color: grey;
+}
+
+.color-red-number {
+    color: red;
+}
+
+/*-------------*/
+.disabledBth{
+    opacity:50%;
+    pointer-events: none;
+}
+
+.input-error{
+    border: 1px solid red;
+}
